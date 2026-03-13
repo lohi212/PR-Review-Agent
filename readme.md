@@ -1,4 +1,4 @@
-### 🤖 GitHub PR Review Agent
+# 🤖 GitHub PR Review Agent
 
 An AI-powered agent that automatically reviews GitHub Pull Requests and provides feedback on code quality, logging practices, naming conventions, and documentation.
 
@@ -45,34 +45,34 @@ GitHub Review Comment
 
 ## ⚙️ Setup
 
-# 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/your-username/pr-review-agent.git
 cd pr-review-agent
 ```
 
-# 2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-# 4️⃣ Add Environment Variables
+### 4️⃣ Add Environment Variables
 
 ```
 OPENAI_API_KEY=your_api_key
 GITHUB_TOKEN=your_github_token
 ```
 
-# 5️⃣ Running the Server
+### 5️⃣ Running the Server
 
 ```
 uvicorn main:app --reload
@@ -83,7 +83,7 @@ Server will start at:
 http://127.0.0.1:8000
 ```
 
-# 6️⃣ Expose Local Server to GitHub
+### 6️⃣ Expose Local Server to GitHub
 
 Use ngrok to expose your webhook endpoint.
 ```
@@ -95,7 +95,7 @@ You will get a public URL like:
 https://abcd1234.ngrok-free.app
 ```
 
-# 7️⃣ 🔗 Configure GitHub Webhook
+### 7️⃣ 🔗 Configure GitHub Webhook
 
 In your GitHub repository:
 ```
